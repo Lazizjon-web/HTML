@@ -1,0 +1,107 @@
+.card1{
+    padding: 100px;
+    display: flex;
+    height: 520px;
+    width: 1140px;
+    background-image: linear-gradient(red, blue, blue, blue, blueviolet);
+}
+.card{
+    height: 520px;
+    width: 359px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.asd{
+    width: 359px;
+    height: 38%;
+    padding: 8px;
+}
+.button1{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 50px;
+    background-image: linear-gradient(blue, rgb(235, 226, 226));
+    border: none;
+    height: 20px;
+}
+.button2{
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+    border-radius: 50px;
+    background-image: linear-gradient(chocolate, rgb(235, 226, 226));
+    border: none;
+    height: 20px;
+}
+.button3{
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 50px;
+    background-image: linear-gradient(red, rgb(235, 226, 226));
+    border: none;
+    height: 20px;
+}
+img{
+    width: 359px;
+    height: 202px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h2{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.btn1{
+    padding: 5px;
+}
+.rasm{
+    width: 50px;
+    height: 50px;
+    margin: 35px 4px 4px 10px;
+    border-radius: 50%;
+    background-image: url(./a3dfa2ff4e0d95a0c9b13816d3fde260.jpg);
+    background-size: cover;
+}
+.rasm1{
+    width: 50px;
+    height: 50px;
+    margin: 35px 4px 4px 10px;
+    border-radius: 50%;
+    background-image: url(./photo.gif);
+    background-size: cover;
+}
+.rasm2{
+    width: 50px;
+    height: 50px;
+    margin: 35px 4px 4px 10px;
+    border-radius: 50%;
+    background-image: url(./38014d2f4eab92474634f4f92b97a159.jpg);
+    background-size: cover;
+}
+.yozuv{
+    width: 250px;
+    height: 50px;
+    margin: 0px 4px 4px 60px;
+}
+h4{
+    padding: 1px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+h5{
+    padding: 1px;
+    margin: 0px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+
+
