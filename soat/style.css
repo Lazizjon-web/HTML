@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+}
+.clock{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: #000;
+    animation: sekund1 60s linear infinite;
+}
+.sekund{
+    position: absolute;
+    width: 2px;
+    height: 132px;
+    background-color: blue;
+    right: 50%;
+    left: 50%;
+    bottom: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.clock1{
+    position: absolute;
+    width: 301px;
+    height: 301px;
+    border-radius: 50%;
+    animation: minut 3600s linear infinite;
+}
+.minut{
+    position: absolute;
+    width: 2px;
+    height: 120px;
+    background-color: red;
+    right: 50%;
+    left: 50%;
+    bottom: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.clock2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation: soat 43200s linear infinite;
+}
+.soat{
+    position: absolute;
+    width: 2px;
+    height: 105px;
+    background-color: greenyellow;  
+    right: 50%;
+    left: 50%;
+    bottom: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+@keyframes sekund1{
+    0%{
+        transform: rotate(0, 0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes soat{
+    0%{
+        transform: rotate(0, 0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes minut{
+    0%{
+        transform: rotate(0, 0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
