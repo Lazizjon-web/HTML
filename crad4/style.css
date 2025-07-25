@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 300px;
+    height: 230px;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    top: 170px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.img-box{
+    width: 100%;
+    height: 200px;
+}
+.img{
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 20px;
+    margin: 10px auto;
+    background-image: url(./i.webp);
+    background-size: 260px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 8px black;
+}
+.img1{
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 20px;
+    margin: 10px auto;
+    background-image: url(./29d2ec36b54e0f2959aeb11b3155d28c.jpg);
+    background-size: 260px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 8px black;
+}
+
+.img3{
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 20px;
+    margin: 10px auto;
+    background-image: url(./74af6a86da248243b1881826519f6d17.jpg);
+    background-size: 260px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 8px black;
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+p{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+button{
+    background-color: white;
+    width: 135px;
+    height: 40px;
+    border: none;
+    background-color: rgb(68, 17, 17);
+    color: white;
+    margin: 30px 10px 10px 80px;
+    box-shadow: 4px 4px 10px rgb(68, 17, 17);
+    border-radius: 7px;
+}
+.yozuv{
+    width: 100%;
+    opacity: 0;
+}
+.card:hover .yozuv{
+    opacity: 1;
+    transition: all 0.5s;
+    transform: translateY(-30px);
+}
+.card:hover{
+    box-shadow: 4px 4px 8px black;
+    height: 310px;
+    transition: all 0.5s;   
+    position: relative;
+    top: 120px;
+    overflow: visible;
+}
+.card:hover .img-box{
+    transform: translateY(-60px);
+    transition: all 0.5s;
+}
+.card:hover .btn{
+    background-color: white;
+    width: 135px;
+    height: 40px;
+    border: none;
+    background-color: rgb(19, 30, 82);
+    color: white;
+    margin: 30px 10px 10px 80px;
+    box-shadow: 4px 4px 10px rgb(19, 30, 82);
+}
+.card:hover .btn1{
+    background-color: white;
+    width: 135px;
+    height: 40px;
+    border: none;
+    background-color: rgb(34, 138, 65);
+    color: white;
+    margin: 30px 10px 10px 80px;
+    box-shadow: 4px 4px 10px rgb(34, 138, 65);
+}
+.card:hover h2{
+    color: rgb(68, 17, 17);
+    text-shadow: 4px 4px 8px rgb(68, 17, 17);
+}
+.card:hover .h21{
+    color: rgb(19, 30, 82);
+    text-shadow: 4px 4px 8px rgb(19, 30, 82);
+}
+.card:hover .h22{
+    color: rgb(34, 138, 65);
+    text-shadow: 4px 4px 8px rgb(34, 138, 65);
+}
+.card:hover p{
+    color: rgb(68, 17, 17);
+    text-shadow: 4px 4px 8px rgb(68, 17, 17);
+}
+.card:hover .p1{
+    color: rgb(19, 30, 82);
+    text-shadow: 4px 4px 8px rgb(19, 30, 82);
+}
+.card:hover .p2{
+    color: rgb(34, 138, 65);
+    text-shadow: 4px 4px 8px rgb(34, 138, 65);
+}
+
