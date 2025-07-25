@@ -1,0 +1,150 @@
+.box{
+    width: 1350px;
+    height: 545px;
+    display: flex;
+    background-color: #eeecec;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+    margin: 30px 10px 10px 55px;
+    box-shadow: 4px 4px 10px gray;
+}
+.card:hover{
+    margin: 20px 10px 10px 55px;
+    transition: all 0.3s;
+}
+.header{
+    height: 50%;
+    border-radius: 30px 30px 0px 30px;
+    background-color: white;
+}
+.header2{
+    border: 1px solid blue;
+    height: 100%;
+    border-radius: 30px 30px 30px 0px;
+    background-color: blue;
+}
+.img{
+    border: 4px solid white;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin: 35px 10px 10px 90px;
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    border: 1px solid blue;
+    width: 160px;
+    height: 160px;
+    margin: 4px auto;
+    border-radius: 50%;
+    background-image: url(./загруженное.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    border: 1px solid blue;
+    width: 160px;
+    height: 160px;
+    margin: 4px auto;
+    border-radius: 50%;
+    background-image: url(./812-8125927_meg-circle-girl.png);
+    background-size: 180px;
+    background-position: center;
+}
+.img4{
+    border: 1px solid blue;
+    width: 160px;
+    height: 160px;
+    margin: 4px auto;
+    border-radius: 50%;
+    background-image: url(./404-4042710_circle-profile-picture-png-transparent-png.png);
+    background-size: 200px;
+    background-position: center;
+}
+.footer{
+    height: 50%;
+    border-radius: 30px;
+    background-color: white;
+    border-radius: 0px 30px 30px 30px;
+    background-color: blue;
+}
+.footer2{
+    border: 1px solid white;
+    height: 99%;
+    border-radius: 30px;
+    border-radius: 30px 0px 30px 30px;
+    background-color: white;
+}
+.yozuv{
+    text-align: center;
+    font-family: sans-serif;
+}
+.lorem{
+    text-align: center;
+    font-family: sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+button{
+    width: 115px;
+    height: 45px;
+    margin: 30px 10px 10px 115px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.chiziq{
+    color: blue;
+    width: 0;
+    font-size: 30px;
+    margin: 240px 10px 10px 20px;
+}
+.chiziq:hover{
+    color: aqua;
+}
+.chiziq2{
+    color: blue;
+    font-size: 30px;
+    width: 0;
+    margin: 240px 10px 10px 10px;
+}
+.chiziq2:hover{
+    color: aqua;
+}
+.nuqtabox{
+    width: 1350px;
+    height: 90px;
+    display: flex;
+    background-color: #eeecec;
+}
+.nuqta{
+    border: 1px solid blue;
+    width: 8px;
+    height: 8px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 10px 10px 10px 640px;
+}
+.nuqta2{
+    width: 0;
+    border: 1px solid blue;
+    width: 6px;
+    height: 6px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 11px 10px 10px 10px;
+}
+.nuqta3{
+    width: 0;
+    border: 1px solid blue;
+    width: 4px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 12px 10px 10px 10px;
+}
